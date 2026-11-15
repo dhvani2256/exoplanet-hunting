@@ -1,0 +1,14 @@
+# Kaggle data (download it yourself, see README)
+data/*
+!data/.gitkeep
+# generated outputs and trained models
+outputs/
+*.keras
+*.joblib
+# python / jupyter
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.venv/
+venv/
+data_synth/
